@@ -25,10 +25,7 @@ int main(int argc, const char** argv) {
 		return 1;
 	}
 
-	glfwMakeContextCurrent(window);  
-
-	int width = 100;
-	int hight = 100;
+	glfwMakeContextCurrent(window);
 
 	GLuint tex_handle;
 	glGenTextures(1, &tex_handle);
@@ -41,7 +38,7 @@ int main(int argc, const char** argv) {
 	glTexEnvf(GL_TEXTURE_ENV, GL_TEXTURE_ENV_MODE, GL_MODULATE);
 
 
-	glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, frame_width, frame_height, 0, GL_RGB, GL_UNSIGNED_BYTE, frame_data);
+	glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, frame_width, frame_height, 0, GL_RGBA, GL_UNSIGNED_BYTE, frame_data);
 
 	glfwMakeContextCurrent(window);
 	while(!glfwWindowShouldClose(window)) {
@@ -52,17 +49,17 @@ int main(int argc, const char** argv) {
 		glfwGetFramebufferSize(window, &window_width, &window_height);
 		glMatrixMode(GL_PROJECTION);
 		glLoadIdentity();
-		glOrtho(0, window_width, 0, window_height, -1, 1);
+		glOrtho(0, window_width, window_height, 0, -1, 1);
 
 		glMatrixMode(GL_MODELVIEW);
 
 		glEnable(GL_TEXTURE_2D);
 		glBindTexture(GL_TEXTURE_2D, tex_handle);
 		glBegin(GL_QUADS);
-			glTexCoord2d(0,0); glVertex2i( 200, 200);
-			glTexCoord2d(1,0); glVertex2i( frame_width, 200);
+			glTexCoord2d(0,0); glVertex2i( 0, 0);
+			glTexCoord2d(1,0); glVertex2i( frame_width, 0);
 			glTexCoord2d(1,1); glVertex2i( frame_width, frame_height);
-			glTexCoord2d(0,1); glVertex2i( 200, frame_height);
+			glTexCoord2d(0,1); glVertex2i( 0, frame_height);
 		glEnd();
 		glDisable(GL_TEXTURE_2D);
 

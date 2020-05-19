@@ -9,9 +9,9 @@
 /* Begin PBXAggregateTarget section */
 		2CAD9FDD7E7F44E1AFC9A3AD /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = CF1EFD6F4C634AB8A7985BA6 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = 20A81DBF070A40D6B1AB6AD2 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
-				06F88A09D15A4FF6BA1FF840 /* CMake Rules */,
+				439C16BBB00244AF8DFB57CE /* CMake Rules */,
 			);
 			dependencies = (
 			);
@@ -20,37 +20,37 @@
 		};
 		59F9F2C1B1E2466CB42C03D7 /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 8F714BDFC73C49F6A205D35B /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = 82246935CA9C41CBADE19589 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
 			buildPhases = (
-				6EB65458441E4B71A3F324A5 /* CMake Rules */,
+				AA5CDDCED997476AAD2B9E41 /* CMake Rules */,
 			);
 			dependencies = (
-				A2430B8E7B2A42CDB7F50C8F /* PBXTargetDependency */,
-				09816767752348B3B5721E6E /* PBXTargetDependency */,
+				14CF79268DED468390350D5F /* PBXTargetDependency */,
+				98DD68A017D74F259778D7D3 /* PBXTargetDependency */,
 			);
 			name = ALL_BUILD;
 			productName = ALL_BUILD;
 		};
 		ED5A9F841A214F728B8E2425 /* install */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = AA9DC1017E6C496985C789A7 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildConfigurationList = 0A8E20E2445E49AABE897209 /* Build configuration list for PBXAggregateTarget "install" */;
 			buildPhases = (
-				DD1FAD747FEF4E329D5D3FE3 /* CMake PostBuild Rules */,
+				696C1B4D33B14DA09EFBBAAF /* CMake PostBuild Rules */,
 			);
 			dependencies = (
-				A9058913E3D64F478E11473E /* PBXTargetDependency */,
+				1F007B04CADB4F38951C2E26 /* PBXTargetDependency */,
 			);
 			name = install;
 			productName = install;
 		};
 		EEDD7E4312D24F479F508786 /* uninstall */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 9443A2B5A3DE41CE8397CECC /* Build configuration list for PBXAggregateTarget "uninstall" */;
+			buildConfigurationList = 2BA3F51FB5884467A0ADAA6B /* Build configuration list for PBXAggregateTarget "uninstall" */;
 			buildPhases = (
-				2C482F3FAB9747709B01BA84 /* CMake Rules */,
+				4F533C5780644537957EA12F /* CMake Rules */,
 			);
 			dependencies = (
-				1AF84D20ABED4500AFA3B2A0 /* PBXTargetDependency */,
+				887133A2749F480C8A3627FD /* PBXTargetDependency */,
 			);
 			name = uninstall;
 			productName = uninstall;
@@ -58,89 +58,89 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		04F2C8013EA64E3EADE3034D /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/include/GLFW/glfw3native.h */ = {isa = PBXBuildFile; fileRef = 5FF8271225FB4669A4DF3AA8 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/include/GLFW/glfw3native.h */; };
-		11F817BECF29467BB984FF85 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = BC780D2C6A484E25AE247B38 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/CMakeLists.txt */; };
-		1ADF3A7820444442A22CC276 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/cocoa_joystick.m */ = {isa = PBXBuildFile; fileRef = CB85F4B8982045D6BEFF7F2B /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/cocoa_joystick.m */; };
-		219849A6273C4C31936336B6 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/cocoa_init.m */ = {isa = PBXBuildFile; fileRef = 16B259C45E94401B98527467 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/cocoa_init.m */; };
-		40A6C3F218FD4354B7533E5F /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/osmesa_context.h */ = {isa = PBXBuildFile; fileRef = 7A48B3C65DBC4ED7BD23A614 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/osmesa_context.h */; };
-		58312F83AC784619B4DCB1F0 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/cocoa_monitor.m */ = {isa = PBXBuildFile; fileRef = 9EB1BF14B5CA413CA7166E78 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/cocoa_monitor.m */; };
-		58EE8ACBA6FA488EB6707564 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/input.c */ = {isa = PBXBuildFile; fileRef = 853B6CD3B86D4EB492855639 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/input.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
-		5A34A9D6343D474184650DB7 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/posix_thread.c */ = {isa = PBXBuildFile; fileRef = C9719ED75EA34A7B8FBC7E3E /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/posix_thread.c */; };
-		5E63F7F1707149DCB1AC8558 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/monitor.c */ = {isa = PBXBuildFile; fileRef = F21103DCA61249BA95FA5A59 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/monitor.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
-		6BE7A8D356A7431BA4F0B934 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/context.c */ = {isa = PBXBuildFile; fileRef = D28F6E29A2854C33813BDF73 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/context.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
-		877E6A076CC149C49B7DD023 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/osmesa_context.c */ = {isa = PBXBuildFile; fileRef = 786AE3C0FBA5483AACE4C0E4 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/osmesa_context.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
-		8E9BB8F8A954486481C19B53 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/include/GLFW/glfw3.h */ = {isa = PBXBuildFile; fileRef = 1920B44B09F9457EA7BC37CF /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/include/GLFW/glfw3.h */; };
-		903C42695AD6486FA12D68AD /* /Users/shanikawijerathna/projects/camid/video-app/xcode/lib/glfw/src/glfw_config.h */ = {isa = PBXBuildFile; fileRef = E417225212044869A136A09F /* /Users/shanikawijerathna/projects/camid/video-app/xcode/lib/glfw/src/glfw_config.h */; };
-		9B5E840A94804386AB9926BF /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/init.c */ = {isa = PBXBuildFile; fileRef = 32A5D17F23F641389A1060C9 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/init.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
-		9E33297143584B348BA0A890 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/mappings.h */ = {isa = PBXBuildFile; fileRef = D2F080ED64E345A2855F4FB3 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/mappings.h */; };
-		9F097F27CFC942BAA6A33656 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/internal.h */ = {isa = PBXBuildFile; fileRef = 0FA996FE542841D2A8E6A50F /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/internal.h */; };
-		ACB18FF7AD0F493A9F42F7BD /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/egl_context.h */ = {isa = PBXBuildFile; fileRef = 99804224F8A547BD87541E67 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/egl_context.h */; };
-		B3BC512C246E473E9D96085C /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/cocoa_time.c */ = {isa = PBXBuildFile; fileRef = F4D937C38C384086988F88F0 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/cocoa_time.c */; };
-		B98CEABF81EA436DB55ABCF3 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/cocoa_platform.h */ = {isa = PBXBuildFile; fileRef = EAC06853DDAB478ABFF85E6F /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/cocoa_platform.h */; };
-		D8EC3A9BBC1E4026A402B2E5 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/cocoa_window.m */ = {isa = PBXBuildFile; fileRef = 3EF05541AD69448591B07823 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/cocoa_window.m */; };
-		E0E9B462F6604659BC8F497E /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/vulkan.c */ = {isa = PBXBuildFile; fileRef = 6AB8CC4DD61A4BB795A7E474 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/vulkan.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
-		E38FCD0BE3AE4BCDB61C3A1F /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/nsgl_context.m */ = {isa = PBXBuildFile; fileRef = 4C3AAB4AEEA04BD98DED8604 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/nsgl_context.m */; };
-		F56F6D7B10F84FCCB10886B5 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/posix_thread.h */ = {isa = PBXBuildFile; fileRef = E12B28AE22814F85B34829D5 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/posix_thread.h */; };
-		F6CB5138C5DC4AD8AB019D64 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/nsgl_context.h */ = {isa = PBXBuildFile; fileRef = 1B3A1150E0D4442CAB09A161 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/nsgl_context.h */; };
-		FDD32124A3FD4CADADE2B2ED /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/cocoa_joystick.h */ = {isa = PBXBuildFile; fileRef = 531E4314B28F41D5B57543FD /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/cocoa_joystick.h */; };
-		FE3C4AEB86D246C7A150F59E /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/window.c */ = {isa = PBXBuildFile; fileRef = 64F20F7E680748B8B2041BB6 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/window.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
-		FFAFEFBC4038422482D4E3C1 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/egl_context.c */ = {isa = PBXBuildFile; fileRef = DFC3C78B76764EAAABB08200 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/egl_context.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
+		1C4CB9B349CF4479A9581A33 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/osmesa_context.c */ = {isa = PBXBuildFile; fileRef = 60FC5EDACDA54859935A347A /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/osmesa_context.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
+		2217ABE1FABA476EADE523BB /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/cocoa_monitor.m */ = {isa = PBXBuildFile; fileRef = 2ACA23ED2DEA4D8FA4FF7765 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/cocoa_monitor.m */; };
+		2625E0247066478880EE47FB /* /Users/shanikawijerathna/projects/camid/video-app/xcode/lib/glfw/src/glfw_config.h */ = {isa = PBXBuildFile; fileRef = 173F235F15D048E785E4BB3C /* /Users/shanikawijerathna/projects/camid/video-app/xcode/lib/glfw/src/glfw_config.h */; };
+		29DAB033FAF14119BF441E31 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/cocoa_platform.h */ = {isa = PBXBuildFile; fileRef = EDED6A66804B4563B102D5FB /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/cocoa_platform.h */; };
+		2BC1CFE2CC4841729F33E3AA /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/init.c */ = {isa = PBXBuildFile; fileRef = B2C381787CBB437882FC88D9 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/init.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
+		3F17D9606CC1466496C3D067 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/egl_context.h */ = {isa = PBXBuildFile; fileRef = D27E907F562A4D90A8C18C17 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/egl_context.h */; };
+		4234BE56EDDB4002BF5C7F59 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/posix_thread.h */ = {isa = PBXBuildFile; fileRef = 4A60D18D5EDF45859DDFD4D2 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/posix_thread.h */; };
+		48EE0F70C3C04656A37E91F4 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/monitor.c */ = {isa = PBXBuildFile; fileRef = 9B2B9659C0CD47028F3BAAD9 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/monitor.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
+		71FCD5C0B8E8428CBC0CF1FA /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/egl_context.c */ = {isa = PBXBuildFile; fileRef = 92E31C246A0B4EA3920BA3BB /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/egl_context.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
+		7ABB8F92281D4940B4F7A755 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/cocoa_joystick.h */ = {isa = PBXBuildFile; fileRef = 6AF8B05BF81844E4AEF711F7 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/cocoa_joystick.h */; };
+		8180FD2376574086B547947A /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/osmesa_context.h */ = {isa = PBXBuildFile; fileRef = 270DBB87C08B4B1A8E22DDD9 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/osmesa_context.h */; };
+		848A3044731B470EB6B26F8A /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/internal.h */ = {isa = PBXBuildFile; fileRef = 220806F820D64F8290DC3ABD /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/internal.h */; };
+		92ACA48C41EE45AF8C257D7F /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/cocoa_time.c */ = {isa = PBXBuildFile; fileRef = 03F82665149545A49C7C4542 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/cocoa_time.c */; };
+		9729404499734CF2B1D9C858 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 06098515F1EA45D3A11432EA /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/CMakeLists.txt */; };
+		9E20F688911643069AC091B3 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/vulkan.c */ = {isa = PBXBuildFile; fileRef = 0E4F01ABEFE54925A0E10284 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/vulkan.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
+		A02D5B4AC062420E9B7A5962 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/include/GLFW/glfw3native.h */ = {isa = PBXBuildFile; fileRef = 559CC47CCEDB4F0BAE8D0A22 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/include/GLFW/glfw3native.h */; };
+		A792B688A07748E084D6A4EE /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/nsgl_context.h */ = {isa = PBXBuildFile; fileRef = 6D761E2054DA450F882EF4F7 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/nsgl_context.h */; };
+		AB63A8EBE363411B954E2041 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/input.c */ = {isa = PBXBuildFile; fileRef = 2E41BC209B6347E5A07AAB04 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/input.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
+		AEBBB10BF6C648E0A5C5FE05 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/cocoa_window.m */ = {isa = PBXBuildFile; fileRef = 9A4A927A3DF045B7BB2022C5 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/cocoa_window.m */; };
+		B7DB56FF66A445C38923FAE9 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/context.c */ = {isa = PBXBuildFile; fileRef = 7F15C53DC0514388B17BA339 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/context.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
+		B89656761CF4469DB6FBBC9B /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/nsgl_context.m */ = {isa = PBXBuildFile; fileRef = D44C64ACA80C4090A099F9E9 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/nsgl_context.m */; };
+		C46730C5F9AD457496A8E748 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/posix_thread.c */ = {isa = PBXBuildFile; fileRef = FFE925B2632F41419E1CD893 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/posix_thread.c */; };
+		C65D0D7D53544150B544B5B3 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/cocoa_init.m */ = {isa = PBXBuildFile; fileRef = 572351536A3A4280A005D286 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/cocoa_init.m */; };
+		C8CF53A57D1D436CBF01BC39 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/mappings.h */ = {isa = PBXBuildFile; fileRef = 5C10D9B9FA0A4E87967BE71F /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/mappings.h */; };
+		D1C3D2EC3DD640C4BB8A110A /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/include/GLFW/glfw3.h */ = {isa = PBXBuildFile; fileRef = 5A29461804AD4BFCAB6CD964 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/include/GLFW/glfw3.h */; };
+		E71D81E43F5D45D8BD990368 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/window.c */ = {isa = PBXBuildFile; fileRef = DFDC26760777418C9B97BD7E /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/window.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
+		EA9013C3B1684C36AD7D397E /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/cocoa_joystick.m */ = {isa = PBXBuildFile; fileRef = 98E1F414345E475C829BB690 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/cocoa_joystick.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildStyle section */
-		0ED9678EAF9B46BBB6B41818 /* Debug */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Debug;
-		};
-		407A658AD0144C1793F58999 /* Release */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Release;
-		};
-		648ABCEDF9334C8F895E56DE /* RelWithDebInfo */ = {
+		3ED9E3CC30C9486C96E7C148 /* RelWithDebInfo */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = RelWithDebInfo;
 		};
-		8E119867726A469F985039D1 /* MinSizeRel */ = {
+		8B4F64B638404360B58D1CD8 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		CB2BB997CA224960A4232347 /* MinSizeRel */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = MinSizeRel;
 		};
+		DA6237B3FDDA4F6EAC09FC16 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-		07456AF8E1ED441880C61F1B /* PBXContainerItemProxy */ = {
+		301C5DFEE806473DB3ACAB08 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E5216E0F0E7842F095C57B9E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2CAD9FDD7E7F44E1AFC9A3AD;
 			remoteInfo = ZERO_CHECK;
 		};
-		12D00738933546E182020310 /* PBXContainerItemProxy */ = {
+		370275A2CFB54FBA88C111AE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E5216E0F0E7842F095C57B9E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2CAD9FDD7E7F44E1AFC9A3AD;
 			remoteInfo = ZERO_CHECK;
 		};
-		B7BB93B4A04041E3B158F3B8 /* PBXContainerItemProxy */ = {
+		408DC419FB204ED28CC95D0F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E5216E0F0E7842F095C57B9E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 59F9F2C1B1E2466CB42C03D7;
 			remoteInfo = ALL_BUILD;
 		};
-		D0F1B088AA9B43A2B10DD5BF /* PBXContainerItemProxy */ = {
+		76330626E1F243698A6BAE02 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E5216E0F0E7842F095C57B9E /* Project object */;
 			proxyType = 1;
@@ -150,141 +150,141 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0FA996FE542841D2A8E6A50F /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = internal.h; path = src/internal.h; sourceTree = SOURCE_ROOT; };
-		16B259C45E94401B98527467 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/cocoa_init.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_init.m; path = src/cocoa_init.m; sourceTree = SOURCE_ROOT; };
-		1920B44B09F9457EA7BC37CF /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/include/GLFW/glfw3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3.h; path = include/GLFW/glfw3.h; sourceTree = SOURCE_ROOT; };
-		1B3A1150E0D4442CAB09A161 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/nsgl_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = nsgl_context.h; path = src/nsgl_context.h; sourceTree = SOURCE_ROOT; };
-		25BCA7B50E4646B8BF12FA34 /* glfw */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglfw3.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		32A5D17F23F641389A1060C9 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/init.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = init.c; path = src/init.c; sourceTree = SOURCE_ROOT; };
-		3EF05541AD69448591B07823 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/cocoa_window.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_window.m; path = src/cocoa_window.m; sourceTree = SOURCE_ROOT; };
-		4C3AAB4AEEA04BD98DED8604 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/nsgl_context.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = nsgl_context.m; path = src/nsgl_context.m; sourceTree = SOURCE_ROOT; };
-		531E4314B28F41D5B57543FD /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/cocoa_joystick.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_joystick.h; path = src/cocoa_joystick.h; sourceTree = SOURCE_ROOT; };
-		56EB912A25004873B2B65E99 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		5FF8271225FB4669A4DF3AA8 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/include/GLFW/glfw3native.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3native.h; path = include/GLFW/glfw3native.h; sourceTree = SOURCE_ROOT; };
-		64F20F7E680748B8B2041BB6 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/window.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = window.c; path = src/window.c; sourceTree = SOURCE_ROOT; };
-		6AB8CC4DD61A4BB795A7E474 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/vulkan.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = vulkan.c; path = src/vulkan.c; sourceTree = SOURCE_ROOT; };
-		786AE3C0FBA5483AACE4C0E4 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/osmesa_context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = osmesa_context.c; path = src/osmesa_context.c; sourceTree = SOURCE_ROOT; };
-		7A48B3C65DBC4ED7BD23A614 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/osmesa_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = osmesa_context.h; path = src/osmesa_context.h; sourceTree = SOURCE_ROOT; };
-		7ACF2D530F204A63B14F358B /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		853B6CD3B86D4EB492855639 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/input.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = input.c; path = src/input.c; sourceTree = SOURCE_ROOT; };
-		99804224F8A547BD87541E67 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/egl_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = egl_context.h; path = src/egl_context.h; sourceTree = SOURCE_ROOT; };
-		9EB1BF14B5CA413CA7166E78 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/cocoa_monitor.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_monitor.m; path = src/cocoa_monitor.m; sourceTree = SOURCE_ROOT; };
-		BC780D2C6A484E25AE247B38 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		C9719ED75EA34A7B8FBC7E3E /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/posix_thread.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = posix_thread.c; path = src/posix_thread.c; sourceTree = SOURCE_ROOT; };
-		CB85F4B8982045D6BEFF7F2B /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/cocoa_joystick.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_joystick.m; path = src/cocoa_joystick.m; sourceTree = SOURCE_ROOT; };
-		D28F6E29A2854C33813BDF73 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = context.c; path = src/context.c; sourceTree = SOURCE_ROOT; };
-		D2F080ED64E345A2855F4FB3 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/mappings.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mappings.h; path = src/mappings.h; sourceTree = SOURCE_ROOT; };
-		DFC3C78B76764EAAABB08200 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/egl_context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = egl_context.c; path = src/egl_context.c; sourceTree = SOURCE_ROOT; };
-		E12B28AE22814F85B34829D5 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/posix_thread.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = posix_thread.h; path = src/posix_thread.h; sourceTree = SOURCE_ROOT; };
-		E417225212044869A136A09F /* /Users/shanikawijerathna/projects/camid/video-app/xcode/lib/glfw/src/glfw_config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw_config.h; path = ../../xcode/lib/glfw/src/glfw_config.h; sourceTree = SOURCE_ROOT; };
-		EAC06853DDAB478ABFF85E6F /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/cocoa_platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_platform.h; path = src/cocoa_platform.h; sourceTree = SOURCE_ROOT; };
-		F21103DCA61249BA95FA5A59 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/monitor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = monitor.c; path = src/monitor.c; sourceTree = SOURCE_ROOT; };
-		F4D937C38C384086988F88F0 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/cocoa_time.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cocoa_time.c; path = src/cocoa_time.c; sourceTree = SOURCE_ROOT; };
+		03F82665149545A49C7C4542 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/cocoa_time.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cocoa_time.c; path = src/cocoa_time.c; sourceTree = SOURCE_ROOT; };
+		06098515F1EA45D3A11432EA /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		0E4F01ABEFE54925A0E10284 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/vulkan.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = vulkan.c; path = src/vulkan.c; sourceTree = SOURCE_ROOT; };
+		151FDF19AFCD478690F2520C /* glfw */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglfw3.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		173F235F15D048E785E4BB3C /* /Users/shanikawijerathna/projects/camid/video-app/xcode/lib/glfw/src/glfw_config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw_config.h; path = ../../xcode/lib/glfw/src/glfw_config.h; sourceTree = SOURCE_ROOT; };
+		220806F820D64F8290DC3ABD /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = internal.h; path = src/internal.h; sourceTree = SOURCE_ROOT; };
+		270DBB87C08B4B1A8E22DDD9 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/osmesa_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = osmesa_context.h; path = src/osmesa_context.h; sourceTree = SOURCE_ROOT; };
+		2ACA23ED2DEA4D8FA4FF7765 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/cocoa_monitor.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_monitor.m; path = src/cocoa_monitor.m; sourceTree = SOURCE_ROOT; };
+		2E41BC209B6347E5A07AAB04 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/input.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = input.c; path = src/input.c; sourceTree = SOURCE_ROOT; };
+		4A60D18D5EDF45859DDFD4D2 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/posix_thread.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = posix_thread.h; path = src/posix_thread.h; sourceTree = SOURCE_ROOT; };
+		559CC47CCEDB4F0BAE8D0A22 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/include/GLFW/glfw3native.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3native.h; path = include/GLFW/glfw3native.h; sourceTree = SOURCE_ROOT; };
+		572351536A3A4280A005D286 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/cocoa_init.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_init.m; path = src/cocoa_init.m; sourceTree = SOURCE_ROOT; };
+		5A29461804AD4BFCAB6CD964 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/include/GLFW/glfw3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3.h; path = include/GLFW/glfw3.h; sourceTree = SOURCE_ROOT; };
+		5C10D9B9FA0A4E87967BE71F /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/mappings.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mappings.h; path = src/mappings.h; sourceTree = SOURCE_ROOT; };
+		60FC5EDACDA54859935A347A /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/osmesa_context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = osmesa_context.c; path = src/osmesa_context.c; sourceTree = SOURCE_ROOT; };
+		6AF8B05BF81844E4AEF711F7 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/cocoa_joystick.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_joystick.h; path = src/cocoa_joystick.h; sourceTree = SOURCE_ROOT; };
+		6D761E2054DA450F882EF4F7 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/nsgl_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = nsgl_context.h; path = src/nsgl_context.h; sourceTree = SOURCE_ROOT; };
+		7F15C53DC0514388B17BA339 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = context.c; path = src/context.c; sourceTree = SOURCE_ROOT; };
+		92E31C246A0B4EA3920BA3BB /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/egl_context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = egl_context.c; path = src/egl_context.c; sourceTree = SOURCE_ROOT; };
+		98E1F414345E475C829BB690 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/cocoa_joystick.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_joystick.m; path = src/cocoa_joystick.m; sourceTree = SOURCE_ROOT; };
+		9A4A927A3DF045B7BB2022C5 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/cocoa_window.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_window.m; path = src/cocoa_window.m; sourceTree = SOURCE_ROOT; };
+		9B2B9659C0CD47028F3BAAD9 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/monitor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = monitor.c; path = src/monitor.c; sourceTree = SOURCE_ROOT; };
+		B2C381787CBB437882FC88D9 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/init.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = init.c; path = src/init.c; sourceTree = SOURCE_ROOT; };
+		D20D089127754AE993D4322F /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		D27E907F562A4D90A8C18C17 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/egl_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = egl_context.h; path = src/egl_context.h; sourceTree = SOURCE_ROOT; };
+		D44C64ACA80C4090A099F9E9 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/nsgl_context.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = nsgl_context.m; path = src/nsgl_context.m; sourceTree = SOURCE_ROOT; };
+		DFDC26760777418C9B97BD7E /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/window.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = window.c; path = src/window.c; sourceTree = SOURCE_ROOT; };
+		EDED6A66804B4563B102D5FB /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/cocoa_platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_platform.h; path = src/cocoa_platform.h; sourceTree = SOURCE_ROOT; };
+		FB985646F7454936B3A539D7 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		FFE925B2632F41419E1CD893 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/posix_thread.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = posix_thread.c; path = src/posix_thread.c; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
-		5DD52356367A47A5B69B9D0B /* CMake Rules */ = {
+		1616BDF1C9B648EBB334D754 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				DCD291D2491E4F5A9377E2DF /* CMake Rules */,
+				D20D089127754AE993D4322F /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		1A83112BDBD1498EA5C2C2AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				151FDF19AFCD478690F2520C /* glfw */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3072DB96133F43E8B9B78B6D /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
-		719191CD7482413186867C0A /* Products */ = {
+		351B80B750414B94BD714570 = {
 			isa = PBXGroup;
 			children = (
-				25BCA7B50E4646B8BF12FA34 /* glfw */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		7E71E6E31A1548EBA77EC5CE = {
-			isa = PBXGroup;
-			children = (
-				AD5EEA6B1BFC48F7BCF264FD /* GLFW3 */,
-				ABF9353E798640F588824859 /* ALL_BUILD */,
-				719191CD7482413186867C0A /* Products */,
+				DC9B0744F76C4E568CDF421F /* GLFW3 */,
+				1616BDF1C9B648EBB334D754 /* ALL_BUILD */,
+				1A83112BDBD1498EA5C2C2AB /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		ABF9353E798640F588824859 /* ALL_BUILD */ = {
+		4A730A1EBD564E6996CC5A1B /* Header Files */ = {
 			isa = PBXGroup;
 			children = (
-				5DD52356367A47A5B69B9D0B /* CMake Rules */,
-				56EB912A25004873B2B65E99 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/CMakeLists.txt */,
-			);
-			name = ALL_BUILD;
-			sourceTree = "<group>";
-		};
-		AD5EEA6B1BFC48F7BCF264FD /* GLFW3 */ = {
-			isa = PBXGroup;
-			children = (
-				CCBF8EAD7E804B2A8372B97A /* uninstall */,
-				C553BFE373594AD2B19063D2 /* glfw */,
-			);
-			name = GLFW3;
-			sourceTree = "<group>";
-		};
-		B740FB49AFD346C4B4B9214D /* Source Files */ = {
-			isa = PBXGroup;
-			children = (
-				16B259C45E94401B98527467 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/cocoa_init.m */,
-				CB85F4B8982045D6BEFF7F2B /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/cocoa_joystick.m */,
-				9EB1BF14B5CA413CA7166E78 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/cocoa_monitor.m */,
-				F4D937C38C384086988F88F0 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/cocoa_time.c */,
-				3EF05541AD69448591B07823 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/cocoa_window.m */,
-				D28F6E29A2854C33813BDF73 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/context.c */,
-				DFC3C78B76764EAAABB08200 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/egl_context.c */,
-				32A5D17F23F641389A1060C9 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/init.c */,
-				853B6CD3B86D4EB492855639 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/input.c */,
-				F21103DCA61249BA95FA5A59 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/monitor.c */,
-				4C3AAB4AEEA04BD98DED8604 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/nsgl_context.m */,
-				786AE3C0FBA5483AACE4C0E4 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/osmesa_context.c */,
-				C9719ED75EA34A7B8FBC7E3E /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/posix_thread.c */,
-				6AB8CC4DD61A4BB795A7E474 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/vulkan.c */,
-				64F20F7E680748B8B2041BB6 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/window.c */,
-			);
-			name = "Source Files";
-			sourceTree = "<group>";
-		};
-		C553BFE373594AD2B19063D2 /* glfw */ = {
-			isa = PBXGroup;
-			children = (
-				E5BFC96E54D14A90A700319D /* Header Files */,
-				B740FB49AFD346C4B4B9214D /* Source Files */,
-				BC780D2C6A484E25AE247B38 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/CMakeLists.txt */,
-			);
-			name = glfw;
-			sourceTree = "<group>";
-		};
-		CCBF8EAD7E804B2A8372B97A /* uninstall */ = {
-			isa = PBXGroup;
-			children = (
-				E7A57DC7CE3A44C1B501F1A1 /* CMake Rules */,
-				7ACF2D530F204A63B14F358B /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/CMakeLists.txt */,
-			);
-			name = uninstall;
-			sourceTree = "<group>";
-		};
-		E5BFC96E54D14A90A700319D /* Header Files */ = {
-			isa = PBXGroup;
-			children = (
-				1920B44B09F9457EA7BC37CF /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/include/GLFW/glfw3.h */,
-				5FF8271225FB4669A4DF3AA8 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/include/GLFW/glfw3native.h */,
-				531E4314B28F41D5B57543FD /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/cocoa_joystick.h */,
-				EAC06853DDAB478ABFF85E6F /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/cocoa_platform.h */,
-				99804224F8A547BD87541E67 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/egl_context.h */,
-				0FA996FE542841D2A8E6A50F /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/internal.h */,
-				D2F080ED64E345A2855F4FB3 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/mappings.h */,
-				1B3A1150E0D4442CAB09A161 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/nsgl_context.h */,
-				7A48B3C65DBC4ED7BD23A614 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/osmesa_context.h */,
-				E12B28AE22814F85B34829D5 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/posix_thread.h */,
-				E417225212044869A136A09F /* /Users/shanikawijerathna/projects/camid/video-app/xcode/lib/glfw/src/glfw_config.h */,
+				5A29461804AD4BFCAB6CD964 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/include/GLFW/glfw3.h */,
+				559CC47CCEDB4F0BAE8D0A22 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/include/GLFW/glfw3native.h */,
+				6AF8B05BF81844E4AEF711F7 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/cocoa_joystick.h */,
+				EDED6A66804B4563B102D5FB /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/cocoa_platform.h */,
+				D27E907F562A4D90A8C18C17 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/egl_context.h */,
+				220806F820D64F8290DC3ABD /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/internal.h */,
+				5C10D9B9FA0A4E87967BE71F /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/mappings.h */,
+				6D761E2054DA450F882EF4F7 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/nsgl_context.h */,
+				270DBB87C08B4B1A8E22DDD9 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/osmesa_context.h */,
+				4A60D18D5EDF45859DDFD4D2 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/posix_thread.h */,
+				173F235F15D048E785E4BB3C /* /Users/shanikawijerathna/projects/camid/video-app/xcode/lib/glfw/src/glfw_config.h */,
 			);
 			name = "Header Files";
 			sourceTree = "<group>";
 		};
-		E7A57DC7CE3A44C1B501F1A1 /* CMake Rules */ = {
+		750E7486C36D49358404C4E6 /* uninstall */ = {
+			isa = PBXGroup;
+			children = (
+				3072DB96133F43E8B9B78B6D /* CMake Rules */,
+				FB985646F7454936B3A539D7 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/CMakeLists.txt */,
+			);
+			name = uninstall;
+			sourceTree = "<group>";
+		};
+		75E317B975014C94B81F9438 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				572351536A3A4280A005D286 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/cocoa_init.m */,
+				98E1F414345E475C829BB690 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/cocoa_joystick.m */,
+				2ACA23ED2DEA4D8FA4FF7765 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/cocoa_monitor.m */,
+				03F82665149545A49C7C4542 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/cocoa_time.c */,
+				9A4A927A3DF045B7BB2022C5 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/cocoa_window.m */,
+				7F15C53DC0514388B17BA339 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/context.c */,
+				92E31C246A0B4EA3920BA3BB /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/egl_context.c */,
+				B2C381787CBB437882FC88D9 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/init.c */,
+				2E41BC209B6347E5A07AAB04 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/input.c */,
+				9B2B9659C0CD47028F3BAAD9 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/monitor.c */,
+				D44C64ACA80C4090A099F9E9 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/nsgl_context.m */,
+				60FC5EDACDA54859935A347A /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/osmesa_context.c */,
+				FFE925B2632F41419E1CD893 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/posix_thread.c */,
+				0E4F01ABEFE54925A0E10284 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/vulkan.c */,
+				DFDC26760777418C9B97BD7E /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/window.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		84B1854CD9154197A310DD30 /* glfw */ = {
+			isa = PBXGroup;
+			children = (
+				4A730A1EBD564E6996CC5A1B /* Header Files */,
+				75E317B975014C94B81F9438 /* Source Files */,
+				06098515F1EA45D3A11432EA /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/CMakeLists.txt */,
+			);
+			name = glfw;
+			sourceTree = "<group>";
+		};
+		DC9B0744F76C4E568CDF421F /* GLFW3 */ = {
+			isa = PBXGroup;
+			children = (
+				750E7486C36D49358404C4E6 /* uninstall */,
+				84B1854CD9154197A310DD30 /* glfw */,
+			);
+			name = GLFW3;
+			sourceTree = "<group>";
+		};
+		DCD291D2491E4F5A9377E2DF /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -296,9 +296,9 @@
 /* Begin PBXNativeTarget section */
 		6E09F6CDFA1443FBB76FF498 /* glfw */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D227D90C256848FC9E6B932C /* Build configuration list for PBXNativeTarget "glfw" */;
+			buildConfigurationList = E8754FFF250D4342ABDB8D6B /* Build configuration list for PBXNativeTarget "glfw" */;
 			buildPhases = (
-				E07BC50B905743349627CC03 /* Sources */,
+				02CCD351329C4B449B87391F /* Sources */,
 			);
 			buildRules = (
 			);
@@ -306,7 +306,7 @@
 			);
 			name = glfw;
 			productName = glfw;
-			productReference = 25BCA7B50E4646B8BF12FA34 /* glfw */;
+			productReference = 151FDF19AFCD478690F2520C /* glfw */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -318,18 +318,18 @@
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1140;
 			};
-			buildConfigurationList = A336F8D4F5334530985892F1 /* Build configuration list for PBXProject "GLFW" */;
+			buildConfigurationList = 578364A74BEF4D1FB6D6F86D /* Build configuration list for PBXProject "GLFW" */;
 			buildSettings = {
 			};
 			buildStyles = (
-				0ED9678EAF9B46BBB6B41818 /* Debug */,
-				407A658AD0144C1793F58999 /* Release */,
-				8E119867726A469F985039D1 /* MinSizeRel */,
-				648ABCEDF9334C8F895E56DE /* RelWithDebInfo */,
+				DA6237B3FDDA4F6EAC09FC16 /* Debug */,
+				8B4F64B638404360B58D1CD8 /* Release */,
+				CB2BB997CA224960A4232347 /* MinSizeRel */,
+				3ED9E3CC30C9486C96E7C148 /* RelWithDebInfo */,
 			);
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
-			mainGroup = 7E71E6E31A1548EBA77EC5CE;
+			mainGroup = 351B80B750414B94BD714570;
 			projectDirPath = ../../../lib/glfw;
 			projectRoot = "";
 			targets = (
@@ -343,7 +343,37 @@
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		06F88A09D15A4FF6BA1FF840 /* CMake Rules */ = {
+		10CE3E4CFFC847A794358D6C = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		24ED79C70B2B41ABB3D019DF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		439C16BBB00244AF8DFB57CE /* CMake Rules */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -354,7 +384,7 @@
 			shellScript = "make -C /Users/shanikawijerathna/projects/camid/video-app/xcode/lib/glfw -f /Users/shanikawijerathna/projects/camid/video-app/xcode/lib/glfw/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
 			showEnvVarsInLog = 0;
 		};
-		2C482F3FAB9747709B01BA84 /* CMake Rules */ = {
+		4F533C5780644537957EA12F /* CMake Rules */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -365,78 +395,7 @@
 			shellScript = "make -C /Users/shanikawijerathna/projects/camid/video-app/xcode/lib/glfw -f /Users/shanikawijerathna/projects/camid/video-app/xcode/lib/glfw/CMakeScripts/uninstall_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
 			showEnvVarsInLog = 0;
 		};
-		46C88945FA4F4816B313A4BA = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# shell script goes here
-exit 0";
-			showEnvVarsInLog = 0;
-		};
-		6746CAEFD59A4A759DDDCAC7 = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# shell script goes here
-exit 0";
-			showEnvVarsInLog = 0;
-		};
-		6EB65458441E4B71A3F324A5 /* CMake Rules */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "CMake Rules";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "make -C /Users/shanikawijerathna/projects/camid/video-app/xcode/lib/glfw -f /Users/shanikawijerathna/projects/camid/video-app/xcode/lib/glfw/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
-			showEnvVarsInLog = 0;
-		};
-		724EDFC1ADFD47B19B4DB86F = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# shell script goes here
-exit 0";
-			showEnvVarsInLog = 0;
-		};
-		9B544530DCFE4E5C8878AC4D = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# shell script goes here
-exit 0";
-			showEnvVarsInLog = 0;
-		};
-		DD1FAD747FEF4E329D5D3FE3 /* CMake PostBuild Rules */ = {
+		696C1B4D33B14DA09EFBBAAF /* CMake PostBuild Rules */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -447,58 +406,99 @@ exit 0";
 			shellScript = "make -C /Users/shanikawijerathna/projects/camid/video-app/xcode/lib/glfw -f /Users/shanikawijerathna/projects/camid/video-app/xcode/lib/glfw/CMakeScripts/install_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
 			showEnvVarsInLog = 0;
 		};
+		AA5CDDCED997476AAD2B9E41 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/shanikawijerathna/projects/camid/video-app/xcode/lib/glfw -f /Users/shanikawijerathna/projects/camid/video-app/xcode/lib/glfw/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		DF7A056F2B714BD1B83F032E = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		F5CAF9D1CBD74AAE8452C5F5 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E07BC50B905743349627CC03 /* Sources */ = {
+		02CCD351329C4B449B87391F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				219849A6273C4C31936336B6 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/cocoa_init.m */,
-				1ADF3A7820444442A22CC276 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/cocoa_joystick.m */,
-				58312F83AC784619B4DCB1F0 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/cocoa_monitor.m */,
-				B3BC512C246E473E9D96085C /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/cocoa_time.c */,
-				D8EC3A9BBC1E4026A402B2E5 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/cocoa_window.m */,
-				6BE7A8D356A7431BA4F0B934 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/context.c */,
-				FFAFEFBC4038422482D4E3C1 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/egl_context.c */,
-				9B5E840A94804386AB9926BF /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/init.c */,
-				58EE8ACBA6FA488EB6707564 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/input.c */,
-				5E63F7F1707149DCB1AC8558 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/monitor.c */,
-				E38FCD0BE3AE4BCDB61C3A1F /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/nsgl_context.m */,
-				877E6A076CC149C49B7DD023 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/osmesa_context.c */,
-				5A34A9D6343D474184650DB7 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/posix_thread.c */,
-				E0E9B462F6604659BC8F497E /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/vulkan.c */,
-				FE3C4AEB86D246C7A150F59E /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/window.c */,
+				C65D0D7D53544150B544B5B3 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/cocoa_init.m */,
+				EA9013C3B1684C36AD7D397E /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/cocoa_joystick.m */,
+				2217ABE1FABA476EADE523BB /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/cocoa_monitor.m */,
+				92ACA48C41EE45AF8C257D7F /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/cocoa_time.c */,
+				AEBBB10BF6C648E0A5C5FE05 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/cocoa_window.m */,
+				B7DB56FF66A445C38923FAE9 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/context.c */,
+				71FCD5C0B8E8428CBC0CF1FA /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/egl_context.c */,
+				2BC1CFE2CC4841729F33E3AA /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/init.c */,
+				AB63A8EBE363411B954E2041 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/input.c */,
+				48EE0F70C3C04656A37E91F4 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/monitor.c */,
+				B89656761CF4469DB6FBBC9B /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/nsgl_context.m */,
+				1C4CB9B349CF4479A9581A33 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/osmesa_context.c */,
+				C46730C5F9AD457496A8E748 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/posix_thread.c */,
+				9E20F688911643069AC091B3 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/vulkan.c */,
+				E71D81E43F5D45D8BD990368 /* /Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src/window.c */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		09816767752348B3B5721E6E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2CAD9FDD7E7F44E1AFC9A3AD /* ZERO_CHECK */;
-			targetProxy = 07456AF8E1ED441880C61F1B /* PBXContainerItemProxy */;
-		};
-		1AF84D20ABED4500AFA3B2A0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2CAD9FDD7E7F44E1AFC9A3AD /* ZERO_CHECK */;
-			targetProxy = 12D00738933546E182020310 /* PBXContainerItemProxy */;
-		};
-		A2430B8E7B2A42CDB7F50C8F /* PBXTargetDependency */ = {
+		14CF79268DED468390350D5F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 6E09F6CDFA1443FBB76FF498 /* glfw */;
-			targetProxy = D0F1B088AA9B43A2B10DD5BF /* PBXContainerItemProxy */;
+			targetProxy = 76330626E1F243698A6BAE02 /* PBXContainerItemProxy */;
 		};
-		A9058913E3D64F478E11473E /* PBXTargetDependency */ = {
+		1F007B04CADB4F38951C2E26 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 59F9F2C1B1E2466CB42C03D7 /* ALL_BUILD */;
-			targetProxy = B7BB93B4A04041E3B158F3B8 /* PBXContainerItemProxy */;
+			targetProxy = 408DC419FB204ED28CC95D0F /* PBXContainerItemProxy */;
+		};
+		887133A2749F480C8A3627FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CAD9FDD7E7F44E1AFC9A3AD /* ZERO_CHECK */;
+			targetProxy = 301C5DFEE806473DB3ACAB08 /* PBXContainerItemProxy */;
+		};
+		98DD68A017D74F259778D7D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CAD9FDD7E7F44E1AFC9A3AD /* ZERO_CHECK */;
+			targetProxy = 370275A2CFB54FBA88C111AE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2027247B42E9448B80FAFA6C /* Debug */ = {
+		1FA593D6754F4614968489B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ONLY_ACTIVE_ARCH = YES;
@@ -507,72 +507,27 @@ exit 0";
 			};
 			name = Debug;
 		};
-		2D4BF10A02694A62A9F738B7 /* Debug */ = {
+		21164E6F3E584970ABB11E94 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H);
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/shanikawijerathna/projects/camid/video-app/lib/glfw/include","/Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src","/Users/shanikawijerathna/projects/camid/video-app/xcode/lib/glfw/src");
 				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				OTHER_CFLAGS = "   -fPIC -Wall '-std=c99'  ";
-				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = glfw3;
+				PRODUCT_NAME = install;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/shanikawijerathna/projects/camid/video-app/xcode/lib/glfw/src";
+				SYMROOT = "/Users/shanikawijerathna/projects/camid/video-app/xcode/lib/glfw";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = Debug;
 		};
-		2F6985430573483F8DBBFFC4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/shanikawijerathna/projects/camid/video-app/xcode/lib/glfw";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		3A5CC3E08C07461A91968F94 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/shanikawijerathna/projects/camid/video-app/xcode/lib/glfw";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		44EED6A47B7545CCA904B6E0 /* Debug */ = {
+		22E7DA066D3B4EA5A5FB1D00 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -592,107 +547,7 @@ exit 0";
 			};
 			name = Debug;
 		};
-		465FB0A9EF354EBAB3FA530E /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/shanikawijerathna/projects/camid/video-app/xcode/lib/glfw";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		467A3777025A47A29AE1BDD9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/shanikawijerathna/projects/camid/video-app/xcode/lib/glfw";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		47687CF21744493F860D01EC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = uninstall;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/shanikawijerathna/projects/camid/video-app/xcode/lib/glfw";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		4EC2F050185F4795A99030CD /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/shanikawijerathna/projects/camid/video-app/xcode/lib/glfw";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		5220774FB96C4216940A988B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/shanikawijerathna/projects/camid/video-app/xcode/lib/glfw";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		52B6CF369D2D48C2966870FB /* MinSizeRel */ = {
+		285EC622F49C4EECAAD567D9 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ONLY_ACTIVE_ARCH = YES;
@@ -701,7 +556,7 @@ exit 0";
 			};
 			name = MinSizeRel;
 		};
-		5864B01FE9F247DC982D33E7 /* MinSizeRel */ = {
+		3072FDBAE9074F4BBAA94638 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -726,7 +581,16 @@ exit 0";
 			};
 			name = MinSizeRel;
 		};
-		59481AD4FE0D40C5AB768841 /* Debug */ = {
+		410C73ED8D444CE6A42673E5 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/shanikawijerathna/projects/camid/video-app/xcode/lib/glfw/build";
+			};
+			name = RelWithDebInfo;
+		};
+		47E990FA7FB4413F8CFEFDE7 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -738,24 +602,15 @@ exit 0";
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
+				PRODUCT_NAME = uninstall;
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/shanikawijerathna/projects/camid/video-app/xcode/lib/glfw";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
-			name = Debug;
-		};
-		5C84E309BC5045E1ABC3AE05 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
-				SYMROOT = "/Users/shanikawijerathna/projects/camid/video-app/xcode/lib/glfw/build";
-			};
 			name = RelWithDebInfo;
 		};
-		605948471BDD4A5A9F5438A6 /* MinSizeRel */ = {
+		4C822B2CF7F044C69184EA92 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -775,7 +630,7 @@ exit 0";
 			};
 			name = MinSizeRel;
 		};
-		9C4A11BC625844B8B8CD64DD /* RelWithDebInfo */ = {
+		4F2945944DDE49B0A400FB24 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -783,13 +638,13 @@ exit 0";
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = ("/Users/shanikawijerathna/projects/camid/video-app/lib/glfw/include","/Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src","/Users/shanikawijerathna/projects/camid/video-app/xcode/lib/glfw/src");
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
-				OTHER_CFLAGS = "       -DNDEBUG -fPIC -Wall '-std=c99'  ";
+				OTHER_CFLAGS = "   -fPIC -Wall '-std=c99'  ";
 				OTHER_LIBTOOLFLAGS = " ";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = glfw3;
@@ -798,29 +653,9 @@ exit 0";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
-			name = RelWithDebInfo;
-		};
-		A053FA4055E94465A0164489 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/shanikawijerathna/projects/camid/video-app/xcode/lib/glfw";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
 			name = Debug;
 		};
-		AFC48340A5A54CA1B7C48F2F /* MinSizeRel */ = {
+		55DECE918DA04536BDA90867 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -840,56 +675,7 @@ exit 0";
 			};
 			name = MinSizeRel;
 		};
-		B2E786E0FC3C4A5A9FE2FA99 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
-				SYMROOT = "/Users/shanikawijerathna/projects/camid/video-app/xcode/lib/glfw/build";
-			};
-			name = Release;
-		};
-		C3416AB89F7C4443B3DDD22D /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/shanikawijerathna/projects/camid/video-app/xcode/lib/glfw";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		E3DDE2D8317D4577A0A71F44 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/shanikawijerathna/projects/camid/video-app/xcode/lib/glfw";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		F5C1434A61E34EE285B7EDAD /* RelWithDebInfo */ = {
+		860F4E52F67143F9990930EB /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -909,7 +695,116 @@ exit 0";
 			};
 			name = RelWithDebInfo;
 		};
-		F9D36F10ADD14AA89CC7F0EF /* Release */ = {
+		8B78B7519A5F4ECEBD7830FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/shanikawijerathna/projects/camid/video-app/xcode/lib/glfw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		95B9C4F4DB78457CB8C197CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/shanikawijerathna/projects/camid/video-app/xcode/lib/glfw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		963AF04ED57944378C394F4E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/shanikawijerathna/projects/camid/video-app/xcode/lib/glfw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		9E2A5D5B368C46F0A53C9455 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/shanikawijerathna/projects/camid/video-app/xcode/lib/glfw/build";
+			};
+			name = Release;
+		};
+		A2D0F9E923F24FEA9A9DA1E6 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/shanikawijerathna/projects/camid/video-app/xcode/lib/glfw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		C2026DEE78F5416FA909FC77 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/shanikawijerathna/projects/camid/video-app/xcode/lib/glfw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		D2F2B09E9D3E49CEAD873D7F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -934,7 +829,27 @@ exit 0";
 			};
 			name = Release;
 		};
-		FC1C2DACE71D4DF8A753C4C3 /* RelWithDebInfo */ = {
+		D944CD361B78431293D62803 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/shanikawijerathna/projects/camid/video-app/xcode/lib/glfw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		DCDC9D981DEE472F8AC2538F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -952,73 +867,158 @@ exit 0";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
+			name = Release;
+		};
+		DD58E929838C49A0AAA7B18C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/shanikawijerathna/projects/camid/video-app/lib/glfw/include","/Users/shanikawijerathna/projects/camid/video-app/lib/glfw/src","/Users/shanikawijerathna/projects/camid/video-app/xcode/lib/glfw/src");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "       -DNDEBUG -fPIC -Wall '-std=c99'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/shanikawijerathna/projects/camid/video-app/xcode/lib/glfw/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
 			name = RelWithDebInfo;
+		};
+		EBA465DCFF9846B3BDAD2A01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/shanikawijerathna/projects/camid/video-app/xcode/lib/glfw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		FE843859C8744A2191B83C74 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/shanikawijerathna/projects/camid/video-app/xcode/lib/glfw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		FF172FCA1C0D43EF946A44A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/shanikawijerathna/projects/camid/video-app/xcode/lib/glfw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8F714BDFC73C49F6A205D35B /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		0A8E20E2445E49AABE897209 /* Build configuration list for PBXAggregateTarget "install" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5220774FB96C4216940A988B /* Debug */,
-				3A5CC3E08C07461A91968F94 /* Release */,
-				AFC48340A5A54CA1B7C48F2F /* MinSizeRel */,
-				E3DDE2D8317D4577A0A71F44 /* RelWithDebInfo */,
+				21164E6F3E584970ABB11E94 /* Debug */,
+				8B78B7519A5F4ECEBD7830FD /* Release */,
+				A2D0F9E923F24FEA9A9DA1E6 /* MinSizeRel */,
+				C2026DEE78F5416FA909FC77 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		9443A2B5A3DE41CE8397CECC /* Build configuration list for PBXAggregateTarget "uninstall" */ = {
+		20A81DBF070A40D6B1AB6AD2 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				44EED6A47B7545CCA904B6E0 /* Debug */,
-				47687CF21744493F860D01EC /* Release */,
-				605948471BDD4A5A9F5438A6 /* MinSizeRel */,
-				FC1C2DACE71D4DF8A753C4C3 /* RelWithDebInfo */,
+				D944CD361B78431293D62803 /* Debug */,
+				FF172FCA1C0D43EF946A44A7 /* Release */,
+				FE843859C8744A2191B83C74 /* MinSizeRel */,
+				860F4E52F67143F9990930EB /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		A336F8D4F5334530985892F1 /* Build configuration list for PBXProject "GLFW" */ = {
+		2BA3F51FB5884467A0ADAA6B /* Build configuration list for PBXAggregateTarget "uninstall" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2027247B42E9448B80FAFA6C /* Debug */,
-				B2E786E0FC3C4A5A9FE2FA99 /* Release */,
-				52B6CF369D2D48C2966870FB /* MinSizeRel */,
-				5C84E309BC5045E1ABC3AE05 /* RelWithDebInfo */,
+				22E7DA066D3B4EA5A5FB1D00 /* Debug */,
+				DCDC9D981DEE472F8AC2538F /* Release */,
+				4C822B2CF7F044C69184EA92 /* MinSizeRel */,
+				47E990FA7FB4413F8CFEFDE7 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		AA9DC1017E6C496985C789A7 /* Build configuration list for PBXAggregateTarget "install" */ = {
+		578364A74BEF4D1FB6D6F86D /* Build configuration list for PBXProject "GLFW" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A053FA4055E94465A0164489 /* Debug */,
-				467A3777025A47A29AE1BDD9 /* Release */,
-				C3416AB89F7C4443B3DDD22D /* MinSizeRel */,
-				465FB0A9EF354EBAB3FA530E /* RelWithDebInfo */,
+				1FA593D6754F4614968489B7 /* Debug */,
+				9E2A5D5B368C46F0A53C9455 /* Release */,
+				285EC622F49C4EECAAD567D9 /* MinSizeRel */,
+				410C73ED8D444CE6A42673E5 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		CF1EFD6F4C634AB8A7985BA6 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		82246935CA9C41CBADE19589 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				59481AD4FE0D40C5AB768841 /* Debug */,
-				2F6985430573483F8DBBFFC4 /* Release */,
-				4EC2F050185F4795A99030CD /* MinSizeRel */,
-				F5C1434A61E34EE285B7EDAD /* RelWithDebInfo */,
+				EBA465DCFF9846B3BDAD2A01 /* Debug */,
+				95B9C4F4DB78457CB8C197CC /* Release */,
+				55DECE918DA04536BDA90867 /* MinSizeRel */,
+				963AF04ED57944378C394F4E /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		D227D90C256848FC9E6B932C /* Build configuration list for PBXNativeTarget "glfw" */ = {
+		E8754FFF250D4342ABDB8D6B /* Build configuration list for PBXNativeTarget "glfw" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2D4BF10A02694A62A9F738B7 /* Debug */,
-				F9D36F10ADD14AA89CC7F0EF /* Release */,
-				5864B01FE9F247DC982D33E7 /* MinSizeRel */,
-				9C4A11BC625844B8B8CD64DD /* RelWithDebInfo */,
+				4F2945944DDE49B0A400FB24 /* Debug */,
+				D2F2B09E9D3E49CEAD873D7F /* Release */,
+				3072FDBAE9074F4BBAA94638 /* MinSizeRel */,
+				DD58E929838C49A0AAA7B18C /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
